@@ -4,7 +4,7 @@ body {
 	font-family: 'rm_pro';
 	background-color: #ededed;
 	font-size: 16px;
-	line-height: calc(2vw * 1.5);
+	line-height: calc(16px * 1.5);
 	text-align: left;
 }
 
@@ -66,28 +66,4 @@ a:hover/*, a:visited*/ { color: #002bc3; border-bottom: 0.005em #002bc3 solid; }
          url('src/font/rmpro-light-webfont.svg#rm_proregular') format('svg');
     font-weight: 200;
     font-style: normal;
-}
-
-@media (min-width: 400px) and (max-width: 1000px) {
-  :root {
-    font-size: calc( 16px + (24 - 16) * ( (100vw - 400px) / ( 1000 - 400) ));
-  }
-}
-@media (min-width: 1000px) {
-  :root {
-    font-size: 24px;
-  }
-}
-@media (min-width: 400px) and (max-width: 1000px) {
-  .heading {
-    font-size: calc( 40px + (150 - 40) * ( (100vw - 400px) / ( 1000 - 400) ));
-  }
-}
-@media (min-width: 1000px) {
-  .heading {
-    font-size: 150px;
-  }
-}
-body {
-  line-height: 1.6;
 }
