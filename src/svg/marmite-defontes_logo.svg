@@ -1,0 +1,12 @@
+<svg id="layer" data-name="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>marmite-defontes_logo</title>
+  <circle cx="512" cy="512" r="512"/>
+  <path class="cls-1" d="M672,352H511.75L361.44,490.5,208,349.58V675.4L512,395.28V672H672A160,160,0,0,0,832,512h0A160,160,0,0,0,672,352ZM240,422.42l97.83,89.84L240,602.4ZM762.51,602.51A127.16,127.16,0,0,1,672,640H544V384H672a128,128,0,0,1,90.51,218.51Z"/>
+</svg>

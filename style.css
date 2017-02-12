@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'rm_pro';
+	background-color: #ededed;
+	font-size: 16px;
+	line-height: calc(2vw * 1.5);
+	text-align: left;
+}
+
+.container { display: flex; }
+
+.cover {
+	display: flex;
+	width: 100%;
+	padding: 0;
+	text-align: left;
+	background-color: #d0d0d0;
+    color: black;
+    height: calc(100vh - (2 * 1.666666vmax));
+	align-items: center;
+	justify-content: center;
+	margin: 1.666666vmax;
+	text-align: left;
+	flex-flow: column;
+}
+
+.logo, .intro {
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+	width: 50vw;
+	min-height: 33vh;
+	margin-bottom: 2em;
+}
+
+.intro {
+	width: 66vw;
+}
+
+
+
+p {
+	max-width: 75vw;
+}
+
+a {
+	color: #009fe3;
+	text-decoration: none;
+	border-bottom: 0.005em #009fe3 solid;
+}
+
+a:hover/*, a:visited*/ { color: #002bc3; border-bottom: 0.005em #002bc3 solid; }
+
+
+/* Font */
+@font-face {
+    font-family: 'rm_pro';
+    src: url('src/font/rmpro-light-webfont.eot');
+    src: url('src/font/rmpro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('src/font/rmpro-light-webfont.woff2') format('woff2'),
+         url('src/font/rmpro-light-webfont.woff') format('woff'),
+         url('src/font/rmpro-light-webfont.ttf') format('truetype'),
+         url('src/font/rmpro-light-webfont.svg#rm_proregular') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@media (min-width: 400px) and (max-width: 1000px) {
+  :root {
+    font-size: calc( 16px + (24 - 16) * ( (100vw - 400px) / ( 1000 - 400) ));
+  }
+}
+@media (min-width: 1000px) {
+  :root {
+    font-size: 24px;
+  }
+}
+@media (min-width: 400px) and (max-width: 1000px) {
+  .heading {
+    font-size: calc( 40px + (150 - 40) * ( (100vw - 400px) / ( 1000 - 400) ));
+  }
+}
+@media (min-width: 1000px) {
+  .heading {
+    font-size: 150px;
+  }
+}
+body {
+  line-height: 1.6;
+}
